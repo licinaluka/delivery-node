@@ -1,0 +1,24 @@
+name: delivery-node
+version: 0.1.0
+
+# authors:
+#   - name <email@example.com>
+
+# description: |
+#   Short description of delivery-node
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+  kemal-session:
+    github: kemalcr/kemal-session
+#   pg:
+#     github: will/crystal-pg
+#     version: "~> 0.5"
+
+# development_dependencies:
+#   webmock:
+#     github: manastech/webmock.cr
+
+# license: MIT
