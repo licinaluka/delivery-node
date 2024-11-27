@@ -52,7 +52,7 @@ get "/registered" do |env|
   res = client.get "/api/ads/delivery-node/verify?uri=#{uri}&nonce=#{nonce}"
   token = res.headers["token"]
   
-  puts "Registered!"
+  puts "Registered! New secret #{token[-25..]} (use to create free ads)"
 end
 
 get "/health/ready" do
